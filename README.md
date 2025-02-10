@@ -2,7 +2,17 @@
 
 The most basic Flask "hello world" application as an AZD template ready for Azure App Service
 
-![system diagram](diagram.png)
+```mermaid
+graph TD
+    logs[logs<br>config] --> web[web<br>sites]
+    appSettings[appSettings<br>config] --> web[web<br>sites]
+    web[web<br>sites] --> appServicePlan[appServicePlan<br>serverfarms]
+    
+    style logs fill:#1f2937,stroke:#fff,color:#fff
+    style appSettings fill:#1f2937,stroke:#fff,color:#fff
+    style web fill:#25282a,stroke:#fff,color:#fff
+    style appServicePlan fill:#25282a,stroke:#fff,color:#fff
+```
 
 ## Usage
 
