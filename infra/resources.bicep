@@ -54,7 +54,7 @@ resource appServicePlan 'Microsoft.Web/serverfarms@2022-03-01' = {
   name: 'app-${resourceToken}'
   location: location
   sku: {
-    name: 'S1'
+    name: 'F1'
   }
   kind: 'linux'
   properties: {
