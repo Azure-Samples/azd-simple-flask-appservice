@@ -1,3 +1,19 @@
+---
+page_type: sample
+languages:
+- azdeveloper
+- python
+- bicep
+- html
+products:
+- azure
+- azure-app-service
+urlFragment: azure-simple-flask-appservice
+name: Deploy a minimal Flask Application on Azure App Service (Python)
+description: A tiny, no-frills, template to deploy Python's Flask web framework to Azure App Service in the free tier.
+---
+<!-- YAML front-matter schema: https://review.learn.microsoft.com/en-us/help/contribute/samples/process/onboarding?branch=main#supported-metadata-fields-for-readmemd -->
+
 # Simple Flask AZD Template
 
 The most basic Flask "hello world" application as an AZD template ready for Azure App Service
